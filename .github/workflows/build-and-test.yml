@@ -94,7 +94,7 @@ jobs:
           color: "info"
 
       - name: 📦 Create and upload build artifact
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: typescript-docs-artifact
           path: "docs/publish"
